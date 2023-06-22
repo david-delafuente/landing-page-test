@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://lucky-sunshine-a3a36a.netlify.app"
-title = "Meghna"
+title = "Landing David"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -127,6 +127,7 @@ weight = 8
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo-test.png"
+Tittle = "Novaigrup"
 # Meta data
 description = "Responsive Multipurpose Parallax Hugo Template"
 author = "Themefisher"
