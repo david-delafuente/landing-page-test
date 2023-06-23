@@ -3,7 +3,7 @@ baseURL = "https://lucky-sunshine-a3a36a.netlify.app"
 title = "Landing David"
 theme = "meghna-hugo"
 # post pagination
-paginate = "6"
+paginate = "3"
 # post excerpt
 summaryLength = "15"
 # disqus short name
