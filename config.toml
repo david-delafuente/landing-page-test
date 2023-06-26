@@ -42,95 +42,18 @@ link = "plugins/google-map/map.js"
 
 ################### English Navigation ########################
 
-
-[[Languages.en.menu.main]]
-name = "Documentación"
-url = "https://docs.gethugothemes.com/meghna/?ref=github"
-weight = 1
-
-[[Languages.en.menu.main]]
-name = "Iconos"
-url = "https://themify.me/themify-icons"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "Precios"
-url = "#pricing"
-weight = 3
-
 [[Languages.en.menu.main]]
 name = "Contacto"
 url = "#contact"
-weight = 4
-
-
-[[Languages.en.menu.main]]
-name = "Ejemplo dropdown"
-weight = 5
-hasChildren = true
-
-[[Languages.en.menu.main]]
-parent = "Ejemplo dropdown"
-name = "Ejemplo 1"
-url = "#"
 weight = 1
-
-[[Languages.en.menu.main]]
-parent = "Ejemplo dropdown"
-name = "Ejemplo 2"
-url = "#"
-weight = 2
-
-
-
-################### French Navigation ########################
-[[Languages.fr.menu.main]]
-name = "sur"
-url = "#about"
-weight = 1
-
-[[Languages.fr.menu.main]]
-name = "un service"
-url = "#services"
-weight = 2
-
-[[Languages.fr.menu.main]]
-name = "portefeuille"
-url = "#portfolio"
-weight = 3
-
-[[Languages.fr.menu.main]]
-name = "équipe"
-url = "#team"
-weight = 4
-
-[[Languages.fr.menu.main]]
-name = "tarification"
-url = "#pricing"
-weight = 5
-
-[[Languages.fr.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-
-[[Languages.fr.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo-test.png"
-Tittle = "Novaigrup"
+logo = "images/logo-quirocitas-blanco.png"
+Tittle = "Quirocitas"
 # Meta data
 description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+author = "Davi de la Fuente"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
@@ -139,7 +62,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/logo-test.png"
+preloader = "images/logo-quirocitas.png"
 
 # cookies
 [params.cookies]

@@ -1,0 +1,32 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/img-quirocitas-1.jpg
+  image_webp : images/about/img-quirocitas-1.jpg
+  title : Optimiza en tiempo y recursos ¡y aumenta citas y clientes!
+
+  feature_item :
+      # feature item loop
+    - title : Ahorrar tiempo y recursos
+      icon : ti-more # themify icon pack : https://themify.me/themify-icons
+      content : Automatiza la programación de citas, gestión de historiales médicos y facturación con nuestro software para consultas quiroprácticas.
+
+      # feature item loop
+    - title : Mejorar en la atención al paciente quiropráctico
+      icon : ti-more-alt # themify icon pack : https://themify.me/themify-icons
+      content : Ofrece una atención más personalizada y eficiente a tus clientes con nuestra plataforma digital para la gestión de pacientes.
+
+      # feature item loop
+    - title : Aumentar la eficiencia
+      icon : ti-more-alt # themify icon pack : https://themify.me/themify-icons
+      content : Nuestro software a medida para quiroprácticos permite optimizar los procesos internos, lo que se traducirá en una mayor eficiencia y productividad.
+      # feature item loop
+    - title : Datos de valor en todo momento
+      icon : ti-help # themify icon pack : https://themify.me/themify-icons
+      content :  Accede a datos cualitativos gracias a nuestra plataforma digital, que recopila información para que puedas tomar decisiones importantes.
+
+     # feature item loop
+    - title : Seguridad y confianza
+      icon : ti-help # themify icon pack : https://themify.me/themify-icons
+      content : Nuestro software de digitalización de consultas garantiza la privacidad y confidencialidad de la información de tus pacientes.
+

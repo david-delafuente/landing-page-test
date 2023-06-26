@@ -4,13 +4,17 @@ about:
   title : Sobre nosotros
   about_item :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : Somos creativos
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    title : Software específico
+    content : Programa digital de gestión de citas y pacientes quiroprácticos personalizados según sus necesidades
 
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : Somos profesionales
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+    title : Sistemas 100% digitales
+    content : Programación de citas fácil, registro de pacientes, historial clínico digital, facturación automatizada...
 
   - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : Somos resolutivos!
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    title : Comunicación
+    content : Gestión de múltiples consultas, múltiples profesionales, recordatorios y comunicación continuada con los clientes
+
+  - icon : ti-thumb-up # themify icon pack : https://themify.me/themify-icons
+    title : Expertos de confianza
+    content : Transparencia, costes adaptados a todas las necesidades, análisis y optimizaciones técnicas recurrentes

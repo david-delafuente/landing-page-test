@@ -1,27 +1,102 @@
-############################# feature ###################################
 feature:
-  enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
-  title : Style config diferentes según el tema.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
-  feature_item : 
-      # feature item loop
-    - title : Test cambio iconos
-      icon : ti-game # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # feature item loop
-    - title : Usando plugins
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+  enable: true
+  feature_card:
+    - title: Optimiza en tiempo y recursos ¡y aumenta citas y clientes!
+      image_webp: images/about/img-quirocitas-1.jpg
+      image: images/about/img-quirocitas-1.jpg
+      extra: Y lo más importante... ¡Personalización y adaptabilidad del software a las necesidades de cada quiropráctico!
+      button:
+        enable : true
+        label : "contactar ahora"
+        link : "#contact"
+      feature_item:
+              # feature item loop
+        - icon : ti-more # themify icon pack : https://themify.me/themify-icons
+          title: Ahorrar tiempo y recursos
+          content: Automatiza la programación de citas, gestión de historiales médicos y facturación con nuestro software para consultas quiroprácticas.
+             # feature item loop
+        - icon : ti-more-alt # themify icon pack : https://themify.me/themify-icons
+          title: Mejorar en la atención al paciente quiropráctico
+          content: Ofrece una atención más personalizada y eficiente a tus clientes con nuestra plataforma digital para la gestión de pacientes.
+             # feature item loop
+        - title : Aumentar la eficiencia
+          icon : ti-more-alt # themify icon pack : https://themify.me/themify-icons
+          content : Nuestro software a medida para quiroprácticos permite optimizar los procesos internos, lo que se traducirá en una mayor eficiencia y productividad.
+          # feature item loop
+        - title : Datos de valor en todo momento
+          icon : ti-help # themify icon pack : https://themify.me/themify-icons
+          content :  Accede a datos cualitativos gracias a nuestra plataforma digital, que recopila información para que puedas tomar decisiones importantes.
 
-      # feature item loop
-    - title : CSS personalizable en custom.css
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # feature item loop
-    - title : Investigar plugins útiles
-      icon : ti-help # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+        # feature item loop
+        - title : Seguridad y confianza
+          icon : ti-help # themify icon pack : https://themify.me/themify-icons
+          content : Nuestro software de digitalización de consultas garantiza la privacidad y confidencialidad de la información de tus pacientes.
+
+
+    - title: Por qué elegir nuestro software para quiroprácticos
+      image_webp: images/about/img-quirocitas-2.jpg
+      image: images/about/img-quirocitas-2.jpg
+      extra: ¡Nuestro software te ayudará a mejorar en usabilidad, eficiencia, mejora continua y calidad!
+      button:
+        enable : true
+        label : "PEDIR UNA CITA"
+        link : "#contact"
+
+      feature_item:
+        - icon : ti-more # themify icon pack : https://themify.me/themify-icons
+          title: Eficiencia garantizada
+          content: en la gestión de pacientes para dar un mejor servicio a los clientes.
+
+              # feature item loop
+        - icon : ti-more-alt # themify icon pack : https://themify.me/themify-icons
+          title: Programa intuitivo y fácil de usar
+          content: para que no pierdas el tiempo con softwares complicados.
+
+             # feature item loop
+        - title : Soporte y atención al cliente
+          icon : ti-more-alt # themify icon pack : https://themify.me/themify-icons
+          content : para contar con nosotros en cualquier momento y para todo tipo de ayudas.
+
+          # feature item loop
+        - title : Asesoramiento
+          icon : ti-help # themify icon pack : https://themify.me/themify-icons
+          content :  sobre técnicas de marketing y comunicación para mejorar la relación con los clientes. ¡Solución completa!
+
+        # feature item loop
+        - title : Precios competitivos y flexibilidad total
+          icon : ti-help # themify icon pack : https://themify.me/themify-icons
+          content : para que cada quiropráctico pueda adaptar el software a cada necesidad específica.
+
+    - title: Optimiza en tiempo y recursos ¡y aumenta citas y clientes!
+      image_webp: images/about/img-quirocitas-3.jpg
+      image: images/about/img-quirocitas-3.jpg
+      button:
+        enable : true
+        label : "SOLICITAR DEMOSTRACIÓN"
+        link : "#contact"
+
+      feature_item:
+        - icon : ti-more # themify icon pack : https://themify.me/themify-icons
+          title: 16 años de experiencia
+          content: en el desarrollo de software a medida para quiroprácticos.
+
+              # feature item loop
+        - icon : ti-more-alt # themify icon pack : https://themify.me/themify-icons
+          title: Con la experiencia acumulada
+          content: de nuestros clientes, hemos desarrollado estrategias de captación, comunicación y fidelización de pacientes.
+
+             # feature item loop
+        - title : Queremos que te despreocupes
+          icon : ti-more-alt # themify icon pack : https://themify.me/themify-icons
+          content : de la facturación y que tu paciente viva una experiencia confortable de principio a fin.
+
+             # feature item loop
+        - title : Nos enfocamos en
+          icon : ti-help # themify icon pack : https://themify.me/themify-icons
+          content :  conseguir que controles al 100% tu consulta y aumentes tus beneficios.
+
+            # feature item loop
+        - title : Creamos
+          icon : ti-help # themify icon pack : https://themify.me/themify-icons
+          content : una tecnología adaptada al sector quiropráctico, a su realidad y oportunidades de negocio.
+

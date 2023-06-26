@@ -3,7 +3,7 @@ cta:
   enable : true
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
-  title : "Componentes personalizables"
+  title : "Quiroprácticos de España y América confían en nosotros:"
   content : "Se pueden crear desde 0 junto a diseño para no tener que ceñirnos 100% a la plantilla origninal."
   button:
     enable : true
