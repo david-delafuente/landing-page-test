@@ -45,7 +45,7 @@ link = "plugins/google-map/map.js"
 [[Languages.en.menu.main]]
 name = "Contacto"
 url = "#contact"
-weight = 1
+weight = 4
 
 ############################# Default Parameters ##########################
 [params]

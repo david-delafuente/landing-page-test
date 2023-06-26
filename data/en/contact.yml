@@ -1,29 +1,31 @@
 ############################## Contact #############################
 contact:
   enable : true
-  title : Contact Us
-  subtitle : Contacto
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
-
+  title : Contactáctanos
+  subtitle : ¡Podemos colaborar en tu éxito!
+  content : Si te interesa recibir información sobre nuestro software personalizado para quiroprácticos, no dudes en contactar con nosotros.
   # Contact details
   contact_list:
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
       info : "Novaigrup, Barcelona, Catalunya"
-      
+
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "Teléfono: +000-000-000"
-    
-      
+      info : "Puedes llamarnos al: +34 649 907 155"
+
+
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: novaigrup@novaigrup.com"
+      info : "O envíarnos un mail: info@qualitum.es"
 
 
   # Contact form
   contact_form:
     enable : true
     form_action : "#" #contact form works with https://formspree.io
-    name : "Nombre"
-    subject : "Apellido"
-    email : "Email"
-    message : "Mensaje"
-    submit : "Enviar"
+    name : "Nombre y apellidos"
+    center : "Nombre del centro o consulta"
+    email : "Correo electrónico"
+    contact : "Teléfono de contacto"
+    submit : "Me interesa"
+
+
+

@@ -1,0 +1,102 @@
+{{"<!-- end Contact Area -->" | safeHTML}}
+<footer id="footer" class="section-bg">
+	<div class="container">
+		<div class="row wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-xl-12">
+				<div class="">
+					<table>
+						<tbody>
+							<tr>
+								<th colspan="2">*INFORMACIÓN BÁSICA SOBRE PROTECCIÓN DE DATOS</th>
+							</tr>
+							<tr>
+								<td>Responsable</td>
+								<td>· Qualitum, S.L.</td>
+							</tr>
+							<tr>
+								<td>Finalidades</td>
+								<td>· Gestionar su condición de usuario del sitio web y su relación con Qualitum.</td>
+							</tr>
+							<tr>
+								<td>Legitimación</td>
+								<td>· Consentimiento del interesado.</td>
+							</tr>
+							<tr>
+								<td>Destinatarios</td>
+								<td>· Terceros a los que Qualitum haya encomendado servicios de mailing y de soporte
+									técnico e informático.</td>
+							</tr>
+							<tr>
+								<td>Derechos del interesado</td>
+								<td>· A acceder, oponerse, rectificar y que se supriman sus datos, así como, otros
+									derechos como se explica en la información adicional.</td>
+							</tr>
+							<tr>
+								<td colspan="2">Puede acceder a información adicional y ampliada en este enlace <a
+										href="#" target="_blank">+info sobre
+										protección de datos</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				{{"<!-- Footer Social Links -->" | safeHTML}}
+				<div class="social-icon">
+					<ul class="list-inline">
+						{{ range site.Params.social }}
+						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+						</li>
+						{{ end }}
+					</ul>
+				</div>
+
+				{{"<!-- copyright -->" | safeHTML}}
+				<div class="copyright text-center">
+					<a href="{{ site.Home.Permalink }}">
+						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
+					</a>
+					<br>
+					<p>{{ site.Params.copyright | markdownify }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+{{"<!-- /footer -->" | safeHTML}}
+
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ if site.Params.map.enable }}
+<script src="{{ site.Params.map.gmap_api | safeURL }}"></script>
+{{ end }}
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify | fingerprint "sha384"}}
+<script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+
+<!-- cookie -->
+{{ if site.Params.cookies.enable }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button"
+		class="btn btn-transparent">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires: {{ site.Params.cookies.expire_days }}
+		});
+		cookieBox.classList.add('cookie-box-hide');
+	};
+		}
+	}) (jQuery);
+</script>
+{{ end }}

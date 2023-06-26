@@ -1,6 +1,6 @@
 ##################################### pricing ##############################
 pricing:
-  enable : true
+  enable : false
   title : Our Plans
   pricing_table :
     # pricing table loop
@@ -17,7 +17,7 @@ pricing:
       button:
         label : "Signup"
         link : "#"
-      
+
     # pricing table loop
     - name : Test 2
       price : €149
@@ -32,5 +32,4 @@ pricing:
       button:
         label : "Signup"
         link : "#"
-        
-   
+

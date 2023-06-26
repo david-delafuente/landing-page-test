@@ -1,6 +1,6 @@
 ################################# Skill ##################################
 skill:
-  enable : true
+  enable : false
   title : Ejemplo de personalizar un componente
   subtitle : Conf rápida en archivos .yaml o .toml
   content : Si queremos modificar lo que tenemos por parte de diseño, solo tenemo que acceder a themes/'plantilla-ejemplo/layout/ y buscar el html a modificar'. Utiliza una mezcla de html, golang y sintaxis propia de HUGO.
@@ -10,18 +10,18 @@ skill:
     - name :  Business Development
       percent : 90%
       note : ¡¡Prueba de ejemplo de personalización!!
-      
+
     # skill item loop
     - name :  Analysis
       percent : 70%
-      
+
     # skill item loop
     - name :  Design
       percent : 80%
-      
+
     - name :  IOS Development
       percent : 95%
-      
+
     # skill item loop
     - name :  Android Development
       percent : 75%
