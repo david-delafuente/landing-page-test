@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h2>{{ .title | markdownify }}</h2>
-				<div class=" d-flex flex-row justify-content-between">
+				<div id="partners_container" class=" d-flex flex-row justify-content-between">
 					{{range .img_card}}
 					<span class="partners">
 						<img src="{{ .logo_partners | absURL }}">

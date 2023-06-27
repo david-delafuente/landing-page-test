@@ -247,6 +247,7 @@ a:hover {
     .section {
         padding: 50px 0;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -2306,4 +2307,35 @@ figcaption {
 .partners>img {
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+    min-width: 60%;
+
+}
+
+@media (max-width: 480px) {
+    #partners_container {
+        flex-direction: column !important;
+        gap: 15px;
+    }
+
+    .partners>img {
+        max-width: 30%;
+        min-width: 20%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #partners_container {
+        flex-direction: column !important;
+        gap: 15px;
+
+
+    }
+
+    .partners>img {
+
+        max-width: 40%;
+        min-width: 30%;
+    }
 }
