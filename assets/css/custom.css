@@ -2323,6 +2323,11 @@ figcaption {
         min-width: 20%;
     }
 
+    .cta {
+        background-size: contain;
+    }
+
+
 }
 
 @media (max-width: 768px) {
@@ -2337,5 +2342,9 @@ figcaption {
 
         max-width: 40%;
         min-width: 30%;
+    }
+
+    .cta {
+        background-size: contain;
     }
 }
