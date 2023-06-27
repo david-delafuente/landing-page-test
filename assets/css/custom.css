@@ -99,9 +99,10 @@ a:hover {
 
 .btn {
     background-color: transparent;
+
     color: #fff;
     padding: 10px 30px;
-    border-radius: 0;
+    border-radius: 50px;
     transition: all .3s ease-in 0s;
 }
 
@@ -2301,6 +2302,7 @@ figcaption {
     display: none;
 }
 
+/* CTA */
 .partners>img {
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
